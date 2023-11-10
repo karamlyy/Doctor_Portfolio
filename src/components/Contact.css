@@ -1,7 +1,7 @@
 /* Contact.css */
 .contact {
     background-color: #ffffff;
-    padding: 50px 0;
+    padding: 50px 20px; /* Adjust padding for smaller screens */
     text-align: center;
   }
   
@@ -21,7 +21,8 @@
     margin-bottom: 15px;
   }
   
-  .contact-info {
+  .contact-info,
+  .social-media {
     margin-bottom: 20px;
   }
   
@@ -34,7 +35,6 @@
     display: flex;
     justify-content: center;
     align-items: center; /* Center icons vertically */
-    margin-bottom: 20px;
   }
   
   .social-media a {
@@ -90,12 +90,17 @@
   
   /* Responsive Styles */
   @media screen and (max-width: 768px) {
+    .contact {
+      margin: 20px;  
+      padding: 50px 10px; 
+    }
+  
     .social-media {
-      flex-wrap: wrap; /* Allow social media icons to wrap on small screens */
+      flex-wrap: wrap;
     }
   
     .social-media a {
-      margin: 10px 5px; /* Adjust margin for smaller screens */
+      margin: 10px 5px; 
     }
   }
   
