@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <p>&copy; 2023 Created by <a href='https://karamlyy.com' target='_blank'>Karam K. Afandi</a> <br></br>All rights reserved.</p>
+        <p>&copy; 2023 Created by Karam K. Afandi <br></br>All rights reserved.</p>
       </div>
     </footer>
   );
