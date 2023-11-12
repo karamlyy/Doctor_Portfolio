@@ -7,12 +7,13 @@ const Header = () => {
     <header className="header">
       <nav className="header-nav">
         <ul className="header-list">
-          <li className="header-item"><a href="#about">About Me</a></li>
-          <li className="header-item"><a href="#services">Services</a></li>
-          <li className="header-item"><a href="#education">Education</a></li>
-          <li className="header-item"><a href="#contact">Contact</a></li>
+          <li className="header-item"><a href="#about">Haqqımda</a></li>
+          <li className="header-item"><a href="#services">Xidmətlər</a></li>
+          <li className="header-item"><a href="#education">Təhsil</a></li>
+          <li className="header-item"><a href="#contact">Əlaqə</a></li>
         </ul>
       </nav>
+      
     </header>
   );
 };
